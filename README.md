@@ -103,3 +103,51 @@ This retrieves the standard cost based on the treatment type.
 # Dashboard
 <img width="1777" height="790" alt="Dashboard" src="https://github.com/user-attachments/assets/265617dd-7fef-4063-b418-6662f2613809" />
 
+PROJECT INSIGHT
+- Total Cost by Doctor
+Five doctors are handling most of the cost equally (≈ $55M each).
+One category “Not Assigned” shows a significantly lower cost (8.58M), suggesting incomplete or missing doctor assignments.
+
+- Patient Distribution by Gender
+Gender proportion is well-balanced: Male: 34% Female: 33% Other: 33%
+This indicates no noticeable gender bias in service access.
+
+- Patients by Treatment Type
+Surgery is the most utilized treatment type (4,981 patients), closely followed by Therapy and Observation.
+Medication has the lowest count (4,971), though still close to the others.
+Overall, the treatment distribution is nearly uniform, but surgery slightly leads.
+
+- Monthly Patient Visits
+Visits fluctuate slightly between 8,700 – 9,700 monthly.
+February shows the lowest visits (8,792), while March, August, and December show peaks.
+No major seasonal dip except February.
+
+- Cost per Diagnosis
+Costs across diagnoses are very similar, averaging around $2.50K per diagnosis.
+Migraine has the lowest cost (2.48K), while Flu, Cancer, and Asthma share the highest (2.51K).
+This suggests standardized pricing or similar treatment intensity.
+
+- Age Distribution
+Adults (27%) and Old patients (27%) form the largest groups.
+Teenagers (21%) and Children (25%) are also significant.
+This shows the facility serves a broad age range with slight emphasis on Adult and Old demographics.
+
+- Number of Patients
+The dashboard shows 5,000 patients in total.
+Average cost per treatment is $2.50K, aligning with cost-by-diagnosis data.
+
+# RECOMMENDATION
+- Investigate “Not Assigned” Doctor Records
+The low cost suggests incomplete data entry.
+Recommend enforcing mandatory doctor assignment to improve reporting accuracy.
+
+- Optimize Resource Allocation for Surgery
+Since surgery has the highest patient volume, ensure adequate staffing, equipment, and OR time.
+
+- Age-Specific Programs
+
+With high Adult and Old patient numbers, consider introducing: Chronic disease management programs and Preventive check-ups for older adults.
+Meanwhile, maintain pediatric and adolescent service quality.
+
+-Strengthen Gender-Specific Health Awareness
+With almost equal distribution across genders, consider targeted programs: Women's health screenings, Men's wellness checks and Inclusivity programs for “Other” gender category.
