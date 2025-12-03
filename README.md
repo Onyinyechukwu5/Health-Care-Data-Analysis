@@ -57,26 +57,48 @@ ROUNDDOWN.
 # Process
 
 ## Data Cleaning
-Removing Duplicate Records From PatientID
-To ensure each patient record is unique. I removed the duplicates by following these steps;
-Select the entire dataset, Go to the Data tab on the Ribbon, Click Remove Duplicates, In the dialog box, tick only PatientID then Click OK.
-Converting VisitDate into a Proper Excel Date Format (dd-mmm-yyyy)
-To ensure all visit dates are in a valid and readable date format. I converted visit date column to dd-mmm-yyyy by following these steps;
-Select the VisitDate column, Go to the Home tab → Number Format dropdown, Choose Short Date or Long Date first (to convert text to real dates), Then, press Ctrl + 1 to open the Format Cells dialog, Under Custom, type dd-mmm-yyyy (e.g., 12-Oct-2025).
-Handling Missing Data
-To Replace blank fields with meaningful placeholder values.
-For Diagnosis column I replaced missing data with “unknown” following these steps;
-Select the Diagnosis column, Press Ctrl + H (Find and Replace), Leave Find what empty, and in Replace with, type Unknown, then Click Replace All.
+Removed duplicate records from patientID. To ensure each patient record is unique.
+Converted VisitDate into a Proper Excel Date Format (dd-mmm-yyyy). To ensure all visit dates are in a valid and readable date format.
+  
+# Handling Missing Data
+Replaced blank fields with meaningful placeholder values.
+For Diagnosis column missing data was replaced with “unknown” following these steps;
+For the Doctor column missing data was replaced with “Unassigned” following the same process.
+This helps to keep data consistent and prevents formula or pivot table errors caused by empty cells.
 
-For the Doctor column  I replaced missing data with “Unassigned” following the same process.
-This helps keep your data consistent and prevents formula or pivot table errors caused by empty cells.
-Standardizing Text Values
+# Standardizing Text Values
 To Ensure all text data follows a consistent format for accuracy in analysis.
 For Gender column:
-I used Find and Replace (Ctrl + H) to correct inconsistent entries,
-Replaced; M or male → Male,
-Replaced; F or female → Female
-Replaced any unclear entries with Other.
+I Replaced; M or male → Male, Replaced; F or female → Female and Replaced any unclear entries with Other.
+
+# Data Formatting
+Ensure all cost values are properly formatted as currency for consistency.
+Cost column was formatted to currency and also to 2 decimal places.
+
+# Add Conditional Formatting
+Conditional formatting was don on the Age column to Highlight Patients Older Than 60
+
+# Formulas and Calculations
+Logical Functions – To Create ‘Age Group’
+Patients was categorised into age groups using an IF function.
+=IF(C2<12,"Child",IF(C2<19,"Teenager", IF(C2<59,"Adult","Old")))
+This formula checks the patient’s age and assigns the correct category.
+
+# Statistical Functions
+To summarize treatment costs. Find the Average, Maximum, and Minimum of Cost
+Formulas used:
+Since the Cost is in column H then; =AVERAGE(H2:H100)
+=MAX(H2:H100)
+=MIN(H2:H100)
+
+# Count Patients with Diabetes
+To get how many patients have “Diabetes” COUNTIF formula was used and since diagnosis is in column E we have; =COUNTIF(E2:E100,"Diabetes")
+
+# Lookup & Reference – VLOOKUP for Standard Costs
+Used a lookup table to find the Standard Cost for each treatment type.
+Formula:
+ =VLOOKUP(Treatment, TreatmentLookup, 2, FALSE)
+This retrieves the standard cost based on the treatment type.
 
 # Dashboard
 - <a href= "https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Dashboard.png"> Dashboard <a/>
