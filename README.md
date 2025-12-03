@@ -51,3 +51,6 @@ ROUNDDOWN.
 - PivotTable: Average Cost by Diagnosis.
 - PivotTable: Age Group Distribution.
 - Insert PivotCharts: Pie chart (Gender distribution), Column chart (Total Cost by Diagnosis)
+
+# Analysis and Interactive Dashboard
+
