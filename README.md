@@ -101,4 +101,5 @@ Formula:
 This retrieves the standard cost based on the treatment type.
 
 # Dashboard
-- <a href= "https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Dashboard.png"> Dashboard <a/>
+<img width="1777" height="790" alt="Dashboard" src="https://github.com/user-attachments/assets/265617dd-7fef-4063-b418-6662f2613809" />
+
