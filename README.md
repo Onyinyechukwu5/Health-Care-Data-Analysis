@@ -54,3 +54,29 @@ ROUNDDOWN.
 
 # Analysis and Interactive Dashboard
 
+# Process
+
+## Data Cleaning
+Removing Duplicate Records From PatientID
+To ensure each patient record is unique. I removed the duplicates by following these steps;
+Select the entire dataset, Go to the Data tab on the Ribbon, Click Remove Duplicates, In the dialog box, tick only PatientID then Click OK.
+Converting VisitDate into a Proper Excel Date Format (dd-mmm-yyyy)
+To ensure all visit dates are in a valid and readable date format. I converted visit date column to dd-mmm-yyyy by following these steps;
+Select the VisitDate column, Go to the Home tab → Number Format dropdown, Choose Short Date or Long Date first (to convert text to real dates), Then, press Ctrl + 1 to open the Format Cells dialog, Under Custom, type dd-mmm-yyyy (e.g., 12-Oct-2025).
+Handling Missing Data
+To Replace blank fields with meaningful placeholder values.
+For Diagnosis column I replaced missing data with “unknown” following these steps;
+Select the Diagnosis column, Press Ctrl + H (Find and Replace), Leave Find what empty, and in Replace with, type Unknown, then Click Replace All.
+
+For the Doctor column  I replaced missing data with “Unassigned” following the same process.
+This helps keep your data consistent and prevents formula or pivot table errors caused by empty cells.
+Standardizing Text Values
+To Ensure all text data follows a consistent format for accuracy in analysis.
+For Gender column:
+I used Find and Replace (Ctrl + H) to correct inconsistent entries,
+Replaced; M or male → Male,
+Replaced; F or female → Female
+Replaced any unclear entries with Other.
+
+# Dashboard
+-<a href= "https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Dashboard.png"> Dashboard <a/>
