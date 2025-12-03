@@ -53,7 +53,7 @@ ROUNDDOWN.
 - Insert PivotCharts: Pie chart (Gender distribution), Column chart (Total Cost by Diagnosis)
 
 # Analysis and Interactive Dashboard
-<a href = https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Health_Data%20Analysis.xlsx> Interactive Dashboard <a/>
+- <a href = https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Health_Data%20Analysis.xlsx> Interactive Dashboard <a/>
 # Process
 
 ## Data Cleaning
@@ -79,4 +79,4 @@ Replaced; F or female → Female
 Replaced any unclear entries with Other.
 
 # Dashboard
--<a href= "https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Dashboard.png"> Dashboard <a/>
+- <a href= "https://github.com/Onyinyechukwu5/Health-Care-Data-Analysis/blob/main/Dashboard.png"> Dashboard <a/>
