@@ -1,4 +1,4 @@
-# Health Care Data Analysis (Interactive Dashboard creation using MS Excel)
+# WTF-EXCEL-MINI-PROJECT
 
 # Introduction
 
