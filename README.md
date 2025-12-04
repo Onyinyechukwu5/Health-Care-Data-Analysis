@@ -101,6 +101,12 @@ Formula:
 This retrieves the standard cost based on the treatment type.
 
 # Dashboard
+<img width="819" height="1080" alt="image" src="https://github.com/user-attachments/assets/e64bae2d-94be-428b-9bb5-19f1f8f490c7" />
+
+<img width="896" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb4e0778-f432-4ea0-b747-502965defc74" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4b5064a7-2eb6-402a-b747-80ce2ce4428d" />
+
 <img width="1777" height="790" alt="Dashboard" src="https://github.com/user-attachments/assets/265617dd-7fef-4063-b418-6662f2613809" />
 
 PROJECT INSIGHT
